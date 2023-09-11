@@ -1,0 +1,23 @@
+@keyframes animationdepartverslehaut {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+//Pour l'effet de fondu vers le haut, l'animation commence avec l'élément déplacé vers le haut (transform: translateY(-100%)) et une opacité de 0 (complètement transparente) et se termine avec l'élément à sa position normale (pas de déplacement vertical) et une opacité de 1 (complètement opaque).
+
+//Pour l'effet de fondu en opacité, l'animation commence avec une opacité de 0 et se termine avec une opacité de 1, créant ainsi un fondu en opacité.
+@keyframes fadeInOpacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

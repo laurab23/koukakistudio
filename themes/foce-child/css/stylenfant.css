@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.fade-in-section,
+.slide-up {
+  opacity: 0;
+  transform: translateY(0);
+  /* Initial state */
+  transition: opacity 0.8s, transform 0.8s;
+  /* Ajoutez la transition ici */
+}
+
+.fade-in-section.active,
+.slide-up.active {
+  opacity: 1;
+  transform: translateY(0);
+  /* Aucun déplacement, réinitialise la position */
+}
